@@ -32,6 +32,10 @@ export default {
       },
     },
     {
+      name: 'trickVideo',
+      type: 'mux.video'
+    },
+    {
       name: 'categories',
       title: 'Categories',
       type: 'array',
