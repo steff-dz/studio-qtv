@@ -36,12 +36,6 @@ export default {
       type: 'mux.video'
     },
     {
-      name: 'categories',
-      title: 'Categories',
-      type: 'array',
-      of: [{type: 'reference', to: {type: 'category'}}],
-    },
-    {
       name: 'tags',
       type: 'array',
       of: [
